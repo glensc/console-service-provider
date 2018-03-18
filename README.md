@@ -134,7 +134,7 @@ class SomeCommand extends Command
         $container = $this->getApplication()->getContainer();
 
         // Direct access to a service.
-        $service = $this->getApplication->getService('some.service');
+        $service = $this->getApplication()->getService('some.service');
     }
 }
 ```
